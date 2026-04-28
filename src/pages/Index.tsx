@@ -5,7 +5,6 @@ import CarWash from "@/components/CarWash";
 import Tires from "@/components/Tires";
 import Gallery from "@/components/Gallery";
 import About from "@/components/About";
-import Booking from "@/components/Booking";
 import Contacts from "@/components/Contacts";
 
 const Index = () => {
@@ -18,7 +17,6 @@ const Index = () => {
       <Tires />
       <Gallery />
       <About />
-      <Booking />
       <Contacts />
     </div>
   );
