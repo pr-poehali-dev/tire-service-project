@@ -78,13 +78,17 @@ export default function CarWash() {
         </div>
 
         {/* CTA banner */}
-        <div className="mt-12 p-8 bg-[#2a3140] border border-[rgba(245,158,11,0.15)] flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div className="mt-12 p-8 bg-[#2a3140] border border-[rgba(245,158,11,0.15)] flex flex-col sm:flex-row items-center justify-between gap-6">
           <div>
             <p className="font-oswald text-xl text-white uppercase">Стоимость уточняйте по телефону</p>
             <p className="text-slate-400 text-sm mt-1">Цена зависит от типа и габаритов техники</p>
             <a href="tel:+79935098823" className="text-amber-400 font-oswald text-2xl font-bold mt-2 inline-block hover:text-amber-300 transition-colors">
               +7 993 509-88-23
             </a>
+            <div className="flex items-center gap-2 mt-3">
+              <Icon name="Clock" size={15} className="text-amber-400" />
+              <span className="text-slate-300 text-sm font-semibold">Пн–Вс: круглосуточно, без выходных</span>
+            </div>
           </div>
           <a href="tel:+79935098823" className="btn-primary flex items-center gap-2 whitespace-nowrap">
             <Icon name="Phone" size={16} />
