@@ -71,16 +71,13 @@ export default function Contacts() {
               <div className="section-tag mb-4">Мы в соцсетях</div>
               <div className="flex gap-3">
                 <a
-                  href="#"
-                  className="w-11 h-11 border border-[rgba(148,163,184,0.2)] flex items-center justify-center text-slate-400 hover:border-amber-400 hover:text-amber-400 transition-all"
+                  href="https://vk.com/shinmacter"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 px-4 py-2 border border-[rgba(148,163,184,0.2)] text-slate-400 hover:border-amber-400 hover:text-amber-400 transition-all font-oswald text-sm uppercase tracking-wider"
                 >
-                  <Icon name="MessageCircle" size={18} />
-                </a>
-                <a
-                  href="#"
-                  className="w-11 h-11 border border-[rgba(148,163,184,0.2)] flex items-center justify-center text-slate-400 hover:border-amber-400 hover:text-amber-400 transition-all"
-                >
-                  <Icon name="Instagram" size={18} />
+                  <Icon name="Users" size={16} />
+                  ВКонтакте
                 </a>
                 <a
                   href="#"
