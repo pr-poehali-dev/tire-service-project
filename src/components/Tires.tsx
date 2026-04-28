@@ -137,14 +137,28 @@ export default function Tires() {
           ))}
         </div>
 
-        <div className="mt-10 text-center">
-          <p className="text-slate-400 text-sm mb-4">
-            Не нашли нужный размер? У нас более 500 позиций в наличии.
-          </p>
-          <a href="tel:+79120375507" className="btn-primary inline-flex items-center gap-2">
-            <Icon name="Phone" size={15} />
-            Уточнить наличие
-          </a>
+        <div className="mt-10 p-8 bg-[#2a3140] border border-[rgba(245,158,11,0.15)] flex flex-col sm:flex-row items-center justify-between gap-6">
+          <div>
+            <p className="font-oswald text-xl text-white uppercase mb-1">Не нашли нужный размер?</p>
+            <p className="text-slate-400 text-sm">У нас более 500 позиций в наличии и под заказ</p>
+          </div>
+          <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col items-center sm:items-end">
+              <span className="section-tag mb-1">Продажа шин</span>
+              <a href="tel:+79221198823" className="text-amber-400 font-oswald text-xl font-bold hover:text-amber-300 transition-colors flex items-center gap-2">
+                <Icon name="Phone" size={16} />
+                +7 922 119-88-23
+              </a>
+            </div>
+            <div className="w-px bg-amber-400/20 hidden sm:block" />
+            <div className="flex flex-col items-center sm:items-end">
+              <span className="section-tag mb-1">Продажа шин</span>
+              <a href="tel:+79221848228" className="text-amber-400 font-oswald text-xl font-bold hover:text-amber-300 transition-colors flex items-center gap-2">
+                <Icon name="Phone" size={16} />
+                +7 922 184-82-28
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>

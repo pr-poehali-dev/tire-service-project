@@ -19,6 +19,7 @@ const directions = [
       "Шины для спецтехники и погрузчиков",
     ],
     bonus: "При покупке комплекта — скидка на монтаж!",
+    phones: ["+79221198823", "+79221848228"],
   },
   {
     icon: "Droplets",
@@ -102,9 +103,15 @@ export default function About() {
                   </li>
                 ))}
               </ul>
-              {d.bonus && (
-                <div className="mt-auto pt-4 border-t border-amber-400/10">
-                  <span className="text-amber-400 text-xs font-semibold">🎁 {d.bonus}</span>
+              {(d.bonus || d.phones) && (
+                <div className="mt-auto pt-4 border-t border-amber-400/10 flex flex-col gap-2">
+                  {d.bonus && <span className="text-amber-400 text-xs font-semibold">🎁 {d.bonus}</span>}
+                  {d.phones && d.phones.map((phone: string) => (
+                    <a key={phone} href={`tel:${phone}`} className="text-white font-oswald text-base hover:text-amber-400 transition-colors flex items-center gap-2">
+                      <Icon name="Phone" size={13} className="text-amber-400" />
+                      {phone.replace(/(\+7)(\d{3})(\d{3})(\d{2})(\d{2})/, '$1 $2 $3-$4-$5')}
+                    </a>
+                  ))}
                 </div>
               )}
             </div>
