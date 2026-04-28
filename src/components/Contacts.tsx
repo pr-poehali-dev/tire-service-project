@@ -16,7 +16,7 @@ const info = [
   {
     icon: "MapPin",
     label: "Адрес",
-    value: "Екатеринбург\nул. Промышленная, 14",
+    value: "Екатеринбург\nул. 2-я Новосибирская, 56",
     href: null,
   },
 ];
@@ -93,7 +93,7 @@ export default function Contacts() {
               <Icon name="MapPin" size={48} className="text-amber-400/40" />
               <div className="text-center">
                 <p className="font-oswald text-xl text-white uppercase">г. Екатеринбург</p>
-                <p className="text-slate-500 text-sm mt-1">ул. Промышленная, 14</p>
+                <p className="text-slate-500 text-sm mt-1">ул. 2-я Новосибирская, 56</p>
               </div>
               <a
                 href="https://yandex.ru/maps"
