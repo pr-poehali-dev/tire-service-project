@@ -63,14 +63,22 @@ export default function Navbar() {
           ))}
         </nav>
 
-        {/* CTA */}
-        <a
-          href="tel:+79120375507"
-          className="hidden lg:flex items-center gap-2 btn-primary text-sm"
-        >
-          <Icon name="Phone" size={15} />
-          +7 912 037-55-07
-        </a>
+        {/* CTA phones */}
+        <div className="hidden lg:flex items-center gap-4">
+          <div className="flex flex-col items-end">
+            <span className="text-slate-500 text-[10px] uppercase tracking-widest">Шиномонтаж</span>
+            <a href="tel:+79120375507" className="text-white font-oswald text-sm font-semibold hover:text-amber-400 transition-colors">
+              +7 912 037-55-07
+            </a>
+          </div>
+          <div className="w-px h-8 bg-amber-400/20" />
+          <div className="flex flex-col items-end">
+            <span className="text-slate-500 text-[10px] uppercase tracking-widest">Мойка</span>
+            <a href="tel:+79935098823" className="text-amber-400 font-oswald text-sm font-semibold hover:text-amber-300 transition-colors">
+              +7 993 509-88-23
+            </a>
+          </div>
+        </div>
 
         {/* Mobile burger */}
         <button

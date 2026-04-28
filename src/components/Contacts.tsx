@@ -3,9 +3,15 @@ import Icon from "@/components/ui/icon";
 const info = [
   {
     icon: "Phone",
-    label: "Телефон",
+    label: "Шиномонтаж",
     value: "+7 912 037-55-07",
     href: "tel:+79120375507",
+  },
+  {
+    icon: "Droplets",
+    label: "Грузовая мойка",
+    value: "+7 993 509-88-23",
+    href: "tel:+79935098823",
   },
   {
     icon: "Clock",
