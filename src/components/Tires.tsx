@@ -127,8 +127,7 @@ export default function Tires() {
                   <Icon name="Maximize2" size={13} />
                   {tire.size}
                 </div>
-                <div className="flex items-center justify-between">
-                  <span className="text-amber-400 font-oswald font-bold text-xl">{tire.price}</span>
+                <div className="flex items-center justify-end">
                   <button className="btn-outline text-xs px-4 py-2">
                     Заказать
                   </button>
