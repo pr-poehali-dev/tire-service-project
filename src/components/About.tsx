@@ -62,11 +62,25 @@ export default function About() {
             Долгое время мы были известны как качественный шиномонтаж, но теперь выросли в полноценный
             сервисный центр, где можно решить все задачи, связанные с колесами и чистотой транспорта.
           </p>
-          <p className="text-slate-400 leading-relaxed max-w-3xl">
+          <p className="text-slate-400 leading-relaxed max-w-3xl mb-8">
             Мы понимаем, что время — это деньги, особенно для владельцев коммерческого транспорта.
             Поэтому собрали под одной крышей три ключевых направления, чтобы вы могли обслужить
             автомобиль быстро, качественно и без лишней суеты.
           </p>
+
+          {/* Partner badge */}
+          <div className="inline-flex items-center gap-5 bg-[#1e2329] border border-amber-400/40 px-6 py-4 max-w-xl">
+            <div className="w-12 h-12 bg-amber-400/10 border border-amber-400/30 flex items-center justify-center shrink-0">
+              <Icon name="Award" size={24} className="text-amber-400" />
+            </div>
+            <div>
+              <div className="section-tag mb-1">Официальный партнёр</div>
+              <p className="font-oswald text-lg text-white uppercase tracking-wider">
+                URAL ADVENTURE COMPANY
+              </p>
+              <p className="text-slate-500 text-xs mt-1">Официальная шинная мастерская клуба</p>
+            </div>
+          </div>
         </div>
 
         {/* 3 directions */}
