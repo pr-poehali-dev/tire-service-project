@@ -25,8 +25,8 @@ export default function About() {
             />
             {/* Overlay badge */}
             <div className="absolute bottom-6 left-6 bg-[#1e2329]/90 border border-amber-400/30 px-6 py-4">
-              <div className="stat-number text-3xl">10+</div>
-              <div className="text-slate-400 text-xs uppercase tracking-widest">лет в бизнесе</div>
+              <div className="stat-number text-3xl">2023</div>
+              <div className="text-slate-400 text-xs uppercase tracking-widest">год основания</div>
             </div>
           </div>
 

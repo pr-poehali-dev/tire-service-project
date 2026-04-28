@@ -62,8 +62,8 @@ export default function Hero() {
           {/* Stats */}
           <div className="grid grid-cols-3 gap-6 mt-12 pt-8 border-t border-[rgba(245,158,11,0.15)] animate-fade-in-up delay-500">
             <div>
-              <div className="stat-number">10+</div>
-              <div className="text-slate-400 text-xs uppercase tracking-widest mt-1">лет опыта</div>
+              <div className="stat-number">2023</div>
+              <div className="text-slate-400 text-xs uppercase tracking-widest mt-1">год основания</div>
             </div>
             <div>
               <div className="stat-number">5000+</div>
