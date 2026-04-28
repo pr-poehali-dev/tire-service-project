@@ -3,7 +3,8 @@ import Icon from "@/components/ui/icon";
 
 const navItems = [
   { label: "Главная", href: "#home" },
-  { label: "Услуги", href: "#services" },
+  { label: "Шиномонтаж", href: "#services" },
+  { label: "Грузовая мойка", href: "#carwash" },
   { label: "Шины и диски", href: "#tires" },
   { label: "Галерея", href: "#gallery" },
   { label: "О нас", href: "#about" },

@@ -47,9 +47,9 @@ export default function Services() {
       <div className="max-w-7xl mx-auto px-6 sm:px-10 relative z-10">
         {/* Header */}
         <div className="mb-14">
-          <div className="section-tag mb-3">── Чем занимаемся</div>
+          <div className="section-tag mb-3">── Шины и резина</div>
           <h2 className="font-oswald text-5xl font-bold text-white uppercase">
-            Наши <span className="text-amber-400">услуги</span>
+            Шино<span className="text-amber-400">монтаж</span>
           </h2>
           <div className="w-16 h-1 bg-amber-400 mt-4" />
         </div>
