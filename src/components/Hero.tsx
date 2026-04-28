@@ -51,13 +51,6 @@ export default function Hero() {
 
           <div className="flex flex-wrap gap-4 animate-fade-in-up delay-400">
             <button
-              onClick={() => scrollTo("#booking")}
-              className="btn-primary flex items-center gap-2"
-            >
-              <Icon name="CalendarCheck" size={16} />
-              Записаться онлайн
-            </button>
-            <button
               onClick={() => scrollTo("#services")}
               className="btn-outline flex items-center gap-2"
             >
