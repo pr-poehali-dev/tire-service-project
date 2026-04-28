@@ -90,7 +90,7 @@ export default function Contacts() {
           <div className="flex flex-col gap-3">
             <div className="border border-[rgba(245,158,11,0.15)] overflow-hidden" style={{ height: 380 }}>
               <iframe
-                src="https://yandex.ru/map-widget/v1/?ll=60.607694%2C56.838011&z=16&pt=60.607694%2C56.838011,pm2rdm&text=%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3%2C%202-%D1%8F%20%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D0%B8%D0%B1%D0%B8%D1%80%D1%81%D0%BA%D0%B0%D1%8F%2056"
+                src="https://yandex.ru/map-widget/v1/?ll=60.578157%2C56.751895&z=17&pt=60.578157%2C56.751895,pm2rdm&org=126560605313"
                 width="100%"
                 height="100%"
                 frameBorder="0"
@@ -100,7 +100,7 @@ export default function Contacts() {
               />
             </div>
             <a
-              href="https://yandex.ru/maps/?text=Екатеринбург%2C+2-я+Новосибирская+56"
+              href="https://yandex.ru/maps/54/yekaterinburg/?ll=60.578723%2C56.751910&mode=poi&poi%5Bpoint%5D=60.578157%2C56.751895&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D126560605313&z=19.07"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-outline text-sm flex items-center justify-center gap-2"
