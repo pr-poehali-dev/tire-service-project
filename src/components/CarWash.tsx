@@ -82,8 +82,11 @@ export default function CarWash() {
           <div>
             <p className="font-oswald text-xl text-white uppercase">Стоимость уточняйте по телефону</p>
             <p className="text-slate-400 text-sm mt-1">Цена зависит от типа и габаритов техники</p>
+            <a href="tel:+79935098823" className="text-amber-400 font-oswald text-2xl font-bold mt-2 inline-block hover:text-amber-300 transition-colors">
+              +7 993 509-88-23
+            </a>
           </div>
-          <a href="tel:+79120375507" className="btn-primary flex items-center gap-2 whitespace-nowrap">
+          <a href="tel:+79935098823" className="btn-primary flex items-center gap-2 whitespace-nowrap">
             <Icon name="Phone" size={16} />
             Позвонить
           </a>
