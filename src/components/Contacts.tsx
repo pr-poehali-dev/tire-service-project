@@ -86,25 +86,28 @@ export default function Contacts() {
             </div>
           </div>
 
-          {/* Map placeholder */}
-          <div className="relative bg-[#1e2329] border border-[rgba(245,158,11,0.15)] overflow-hidden min-h-80">
-            <div className="absolute inset-0 grid-texture" />
-            <div className="absolute inset-0 flex flex-col items-center justify-center gap-4">
-              <Icon name="MapPin" size={48} className="text-amber-400/40" />
-              <div className="text-center">
-                <p className="font-oswald text-xl text-white uppercase">г. Екатеринбург</p>
-                <p className="text-slate-500 text-sm mt-1">ул. 2-я Новосибирская, 56</p>
-              </div>
-              <a
-                href="https://yandex.ru/maps"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-outline text-sm flex items-center gap-2"
-              >
-                <Icon name="ExternalLink" size={14} />
-                Открыть на карте
-              </a>
+          {/* Map */}
+          <div className="flex flex-col gap-3">
+            <div className="border border-[rgba(245,158,11,0.15)] overflow-hidden" style={{ height: 380 }}>
+              <iframe
+                src="https://yandex.ru/map-widget/v1/?ll=60.607694%2C56.838011&z=16&pt=60.607694%2C56.838011,pm2rdm&text=%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3%2C%202-%D1%8F%20%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D0%B8%D0%B1%D0%B8%D1%80%D1%81%D0%BA%D0%B0%D1%8F%2056"
+                width="100%"
+                height="100%"
+                frameBorder="0"
+                allowFullScreen
+                title="Карта — ШинМастер"
+                style={{ filter: "grayscale(30%) contrast(1.05)" }}
+              />
             </div>
+            <a
+              href="https://yandex.ru/maps/?text=Екатеринбург%2C+2-я+Новосибирская+56"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-outline text-sm flex items-center justify-center gap-2"
+            >
+              <Icon name="ExternalLink" size={14} />
+              Открыть в Яндекс.Картах
+            </a>
           </div>
         </div>
       </div>
